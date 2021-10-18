@@ -10,7 +10,6 @@ namespace TrackerLibrary
 {
     public static class GlobalConfig //holds connection information
     {
-        // holds everything that implements IDataConnection interface.
         public static IDataConnection Connection { get; private set; }
         public static void InitializedConnections(DatabaseType db)
         {
