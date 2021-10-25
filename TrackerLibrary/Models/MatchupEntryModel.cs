@@ -10,6 +10,8 @@
         /// <summary>
         /// Represents the score for this team.
         /// </summary>
+        public int TeamCompetingId { get; set; }
+        public int ParentMatchupId { get; set; }
         public double Score { get; set; }
         /// <summary>
         /// Represents the matchup this team came from 
